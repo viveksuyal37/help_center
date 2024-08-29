@@ -5,8 +5,8 @@
   "scripts": {
     "start": "tsc && node dist/index.js",
     "build": "tsc",
-    "db-migrate": "prisma migrate dev",
-    "db-seed": "ts-node prisma/seed.js"
+    "db-migrate": "prisma generate && prisma migrate dev",
+    "db-seed": "node prisma/seed.js"
   },
   "author": "",
   "license": "ISC",
