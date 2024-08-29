@@ -11,7 +11,7 @@ cd help_center
 To install all the dependencies , run the following command:
 
 ```
-npm run start:all
+npm run install:all
 ```
 
 ### Start the server
