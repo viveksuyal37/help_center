@@ -1,0 +1,16 @@
+{
+  "name": "my-fullstack-project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:web-app": "npm install --prefix web-app",
+    "install:server": "npm install --prefix server",
+    "install:all": "npm install && run install:web-app && npm run install:server",
+    "start:web-app": "npm start --prefix web-app",
+    "start:server": "npm start --prefix server",
+    "start:all": "concurrently \"npm run start:web-app\" \"npm run start:server\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
