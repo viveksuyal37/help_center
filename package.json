@@ -5,7 +5,7 @@
   "scripts": {
     "install:web-app": "npm install --prefix web-app",
     "install:server": "npm install --prefix server",
-    "install:all": "npm install && run install:web-app && npm run install:server",
+    "install:all": "npm install && npm run install:web-app && npm run install:server",
     "start:web-app": "npm start --prefix web-app",
     "start:server": "npm start --prefix server",
     "start:all": "concurrently \"npm run start:web-app\" \"npm run start:server\""

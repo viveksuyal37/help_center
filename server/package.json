@@ -17,6 +17,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "my-fullstack-project": "file:..",
     "prisma": "^5.19.0",
     "zod": "^3.23.8"
   },
